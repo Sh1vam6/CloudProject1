@@ -1,0 +1,64 @@
+/* Reset the default browser styles */
+* {
+	margin: 23px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set a default font family */
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    align-items: center;
+	background-color: #ea8080;
+	color: #121010;
+	padding: 25px;
+
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    
+}
+
+nav li {
+	margin-right: 25px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #100f0f;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Style the main content */
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Style the footer */
+footer {
+	background-color: #ed7d7d;
+	color: #0b0b0b;
+	padding: 20px;
+	text-align: center;
+}
